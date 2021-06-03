@@ -1,6 +1,8 @@
 # TSAI_Session_5_Assignment
 
 This assignement is about building an LSTM network for sentiment analysis on  StanfordSentimentAnalysis Dataset. (http://nlp.stanford.edu/~socherr/stanfordSentimentTreebank.zip) which contains movie reviews and sentiment lables which can be considered into 5 labels.
+This dataset contains just over 10,000 pieces of Stanford data from HTML files of Rotten Tomatoes.
+
 Target is to achieve 60% + validation accuracy, for this we have done Data Augmentation using google translation, random delete, and random swap methods.
 
 The dataset is loaded from the text files to dataframes, following files were used: dictionary.txt, datasetSplit.txt, sentiment_labels.txt and datasetSentences.txt
